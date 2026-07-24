@@ -1,0 +1,21 @@
+{
+  "meeting_id": "YYYY-MM-week-N",
+  "research_question": "State one answerable geography research question.",
+  "claims": [
+    {
+      "statement": "State one result or working interpretation.",
+      "evidence": ["Figure/table/file identifier or verifiable literature citation."],
+      "certainty": "confirmed | probable | unknown"
+    }
+  ],
+  "discussion_questions": [
+    "Ask for a decision, critique, or method comparison.",
+    "Ask a second concrete question."
+  ],
+  "next_steps": [
+    {
+      "action": "State the smallest next action.",
+      "success_criterion": "State what observable result will count as progress."
+    }
+  ]
+}

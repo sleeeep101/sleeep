@@ -1,0 +1,4 @@
+name: academic-workflow
+description: 个人学术工作流总控 Skill。按科研流程调度 55 个学术 Skills，沉淀长期知识库，服务 GIS/遥感/空间分析方向研究生科研。
+tools: Skill, Read, Write, Edit, Bash, Grep, Glob, WebSearch, WebFetch
+model: haiku

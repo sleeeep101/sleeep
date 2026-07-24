@@ -1,0 +1,32 @@
+# Local research corpus and generated reading outputs
+/01_读_论文阅读与复盘/01_每日论文/
+/01_读_论文阅读与复盘/02_论文阅读库/
+/01_读_论文阅读与复盘/04_长期知识库/长期知识库.md
+/data/
+/logs/
+
+# Local, project-specific research workspaces and disposable GIS runs
+/04_SCI三区论文项目/202606_RUSLE_川东北紫色土/
+/04_SCI三区论文项目/_tmp_day2_arcpy/
+/04_SCI三区论文项目/SCI三区_1个月论文作战报告_20260611.md
+
+# Generated knowledge-graph state; publish only a separately reviewed sample
+/knowledge_graph/kg_data.json
+/knowledge_graph/kg_data_history.json
+/knowledge_graph/.kg_hash_cache.json
+/knowledge_graph/graph.html
+/knowledge_graph/kg_canvas.json
+
+# Personal profiles, machine outputs, and local runtime artifacts
+/00_项目总览与导航/个人学术信息.md
+**/__pycache__/
+*.py[cod]
+*.tmp
+*.bak
+.learnings/
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.local.json

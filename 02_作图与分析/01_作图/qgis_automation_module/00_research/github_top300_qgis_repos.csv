@@ -1,0 +1,49 @@
+rank,repo,stars,forks,language,updated_at,license,url,description,query_source
+1,qgis/QGIS,13883,3436,C++,2026-06-06,GPL-2.0,https://github.com/qgis/QGIS,"QGIS is a free, open source, cross platform GIS",qgis
+2,TangSY/echarts-map-demo,2116,353,Vue,2026-06-03,Apache-2.0,https://github.com/TangSY/echarts-map-demo,"GeoJSON行政区划边界数据获取，全国省市区县多级联动",qgis
+3,joewdavies/geoblender,1829,113,HTML,2026-06-03,MIT,https://github.com/joewdavies/geoblender,"Tutorials for making 3D-looking maps with Blender and QGIS",qgis
+4,opengisch/QField,1261,330,C++,2026-06-06,GPL-2.0,https://github.com/opengisch/QField,"Simplified touch optimized interface for QGIS",qgis
+5,giswqs/qgis-earthengine-examples,984,281,Python,2026-06-02,MIT,https://github.com/giswqs/qgis-earthengine-examples,"300+ Python examples for Google Earth Engine in QGIS",qgis
+6,jjsantos01/qgis_mcp,971,160,Python,2026-06-04,MIT,https://github.com/jjsantos01/qgis_mcp,"MCP server that allows LLMs to use QGIS Desktop",qgis
+7,qgis2web/qgis2web,698,172,JavaScript,2026-06-02,GPL-2.0,https://github.com/qgis2web/qgis2web,"QGIS plugin to export project to OpenLayers/Leaflet webmap",qgis
+8,qgis/QGIS-Documentation,599,1011,Python,2026-06-06,GPL-2.0,https://github.com/qgis/QGIS-Documentation,"QGIS Documentation",qgis
+9,maptiler/tileserver-php,592,167,PHP,2026-05-25,BSD,https://github.com/maptiler/tileserver-php,"MBTiles and MapTiler folder hosting with TileJSON",qgis
+10,minorua/Qgis2threejs,586,101,JavaScript,2026-06-05,MIT,https://github.com/minorua/Qgis2threejs,"3D map visualization and web export plugin for QGIS",qgis
+11,gee-community/qgis-earthengine-plugin,509,123,Python,2026-06-04,GPL-2.0,https://github.com/gee-community/qgis-earthengine-plugin,"Integrates Google Earth Engine and QGIS using Python API",qgis
+12,lovebetterworld/gis-spicy-hot-pot,462,108,Batchfile,2026-06-04,-,https://github.com/lovebetterworld/gis-spicy-hot-pot,"WebGis解决方案，GIS全套笔记，OpenLayers，QGIS",qgis
+13,coolzhao/Geo-SAM,408,54,Python,2026-06-03,MIT,https://github.com/coolzhao/Geo-SAM,"QGIS plugin using Segment Anything Model for landform segmentation",qgis
+14,MerginMaps/mobile,377,79,C++,2026-06-04,GPL-2.0,https://github.com/MerginMaps/mobile,"Mergin Maps mobile - Open QGIS projects on phone",qgis
+15,opengeos/GeoAgent,366,69,Python,2026-06-05,MIT,https://github.com/opengeos/GeoAgent,"Multimodal AI agent for geospatial data analysis and visualization",qgis
+16,qgis/qwc2,362,129,JavaScript,2026-06-05,-,https://github.com/qgis/qwc2,"QGIS Web Client",qgis
+17,opengeos/qgis-gee-data-catalogs-plugin,350,37,Python,2026-05-28,MIT,https://github.com/opengeos/qgis-gee-data-catalogs-plugin,"Search Earth Engine Data Catalog from QGIS",qgis
+18,3liz/lizmap-web-client,328,154,JavaScript,2026-06-04,MPL-2.0,https://github.com/3liz/lizmap-web-client,"Transfer QGIS project to web via Lizmap",qgis
+19,NationalSecurityAgency/qgis-latlontools-plugin,326,106,Python,2026-06-06,GPL-2.0,https://github.com/NationalSecurityAgency/qgis-latlontools-plugin,"QGIS coordinate capture and conversion tools",qgis
+20,anitagraser/QGIS-resources,300,168,Jupyter Notebook,2026-06-02,-,https://github.com/anitagraser/QGIS-resources,"Collection of QGIS resources",qgis
+21,kartoza/docker-osm,299,104,C,2026-04-08,-,https://github.com/kartoza/docker-osm,"Docker OSM PostGIS with automatic updates",qgis
+22,inasafe/inasafe,279,131,Python,2026-06-02,GPL-3.0,https://github.com/inasafe/inasafe,"QGIS plugin for natural disaster impact estimation",qgis
+23,nextgis/nextgisweb,254,103,Python,2026-06-06,GPL-2.0,https://github.com/nextgis/nextgisweb,"Open-source Web GIS server for QGIS workflows",qgis
+24,QuickOSM/QuickOSM,250,62,QML,2026-06-05,GPL-2.0,https://github.com/QuickOSM/QuickOSM,"QGIS plugin to fetch OSM data with Overpass API",qgis
+25,geographyclub/qgis-expressions,245,28,-,2026-06-02,-,https://github.com/geographyclub/qgis-expressions,"QGIS expressions reference",qgis
+26,r-spatial/qgisprocess,221,23,R,2026-03-23,GPL-3.0,https://github.com/r-spatial/qgisprocess,"R package to use QGIS processing algorithms",qgis processing
+27,qgis/qgis-js,215,12,TypeScript,2026-05-20,-,https://github.com/qgis/qgis-js,"QGIS core ported to WebAssembly",qgis
+28,ghtmtt/DataPlotly,207,60,Python,2026-06-05,GPL-2.0,https://github.com/ghtmtt/DataPlotly,"D3-like plots with plotly in QGIS",qgis
+29,nextgis/quickmapservices,190,51,Python,2026-05-02,GPL-2.0,https://github.com/nextgis/quickmapservices,"Find and add map services in one click QGIS plugin",qgis
+30,tjukanovt/qgis_styles,189,32,-,2026-04-01,-,https://github.com/tjukanovt/qgis_styles,"Resources to take QGIS cartography to the next level",qgis
+31,r-spatial/RQGIS,186,47,R,2026-05-01,GPL-3.0,https://github.com/r-spatial/RQGIS,"R package integrating R with QGIS",qgis
+32,PUTvision/qgis-plugin-deepness,186,40,Python,2026-05-31,GPL-3.0,https://github.com/PUTvision/qgis-plugin-deepness,"Deep learning inference plugin for QGIS",qgis
+33,sourcepole/qgis-openlayers-plugin,185,107,Python,2026-06-02,GPL-2.0,https://github.com/sourcepole/qgis-openlayers-plugin,"OpenLayers plugin for QGIS",qgis
+34,GIS4WRF/gis4wrf,185,41,Python,2026-05-26,GPL-3.0,https://github.com/GIS4WRF/gis4wrf,"QGIS toolkit for WRF model pre/post-processing",qgis
+35,gis-ops/tutorials,184,54,Jupyter Notebook,2026-05-05,-,https://github.com/gis-ops/tutorials,"Broad collection of GIS related tutorials",qgis
+36,anitagraser/TimeManager,183,68,Python,2026-06-02,GPL-2.0,https://github.com/anitagraser/TimeManager,"QGIS Time Manager plugin",qgis
+37,opengeos/qgis-basemaps,182,40,Python,2026-06-02,MIT,https://github.com/opengeos/qgis-basemaps,"Adding basemaps to QGIS",qgis
+38,roam-qgis/Roam,180,58,Python,2026-05-12,GPL-2.0,https://github.com/roam-qgis/Roam,"Simple data collection built using QGIS",qgis
+39,jagodki/Offline-MapMatching,173,51,Python,2026-01-08,GPL-3.0,https://github.com/jagodki/Offline-MapMatching,"QGIS plugin for trajectory map matching (HMM)",qgis
+40,All4Gis/QGISFMV,170,59,Python,2026-05-22,GPL-2.0,https://github.com/All4Gis/QGISFMV,"QGIS Full Motion Video plugin",qgis
+41,NationalSecurityAgency/qgis-shapetools-plugin,167,70,Python,2026-04-10,GPL-2.0,https://github.com/NationalSecurityAgency/qgis-shapetools-plugin,"Geodesic shapes and tools for QGIS",qgis
+42,charleyglynn/OSM-Shapefile-QGIS-stylesheets,164,78,QML,2026-01-16,-,https://github.com/charleyglynn/OSM-Shapefile-QGIS-stylesheets,"OSM Shapefile QGIS stylesheets",qgis
+43,geometalab/Vector-Tiles-Reader-QGIS-Plugin,153,28,Python,2026-04-07,GPL-2.0,https://github.com/geometalab/Vector-Tiles-Reader-QGIS-Plugin,"Read Mapbox Vector Tiles in QGIS",qgis
+44,SpaceGroupUCL/qgisSpaceSyntaxToolkit,143,39,Python,2026-06-02,GPL-3.0,https://github.com/SpaceGroupUCL/qgisSpaceSyntaxToolkit,"Space Syntax Toolkit for QGIS",qgis
+45,qgis/QGIS-Processing,103,28,Python,-,-,https://github.com/qgis/QGIS-Processing,"Example scripts and algorithms for QGIS Processing",qgis processing
+46,anitagraser/QGIS-Processing-tools,90,27,Python,-,-,https://github.com/anitagraser/QGIS-Processing-tools,"Collection of scripts and models for QGIS Processing",qgis processing
+47,movingpandas/qgis-trajectools,66,10,Python,-,-,https://github.com/movingpandas/qgis-trajectools,"Trajectory analysis tools for QGIS Processing",qgis processing
+48,geometalab/GeoPythonConf2018-QGIS-Processing-Workshop,32,8,Python,-,-,https://github.com/geometalab/GeoPythonConf2018-QGIS-Processing-Workshop,"QGIS Processing Framework workshop Python automation",qgis processing

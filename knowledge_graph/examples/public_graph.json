@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "DEMO-PAPER-001",
+      "entity_type": "Paper",
+      "label": "Synthetic geography workflow example",
+      "title": "Synthetic geography workflow example",
+      "topics": ["gully erosion", "terrain analysis"],
+      "source_type": "synthetic-example",
+      "source_file": "knowledge_graph/examples/public_graph.json"
+    },
+    {
+      "id": "DEMO-METHOD-001",
+      "entity_type": "Method",
+      "label": "Terrain erosion screening (demonstration)",
+      "canonical_name": "Terrain erosion screening",
+      "category": "Geomorphology",
+      "source_type": "synthetic-example",
+      "source_file": "knowledge_graph/examples/public_graph.json"
+    },
+    {
+      "id": "DEMO-TERM-001",
+      "entity_type": "Term",
+      "label": "Gully erosion",
+      "english": "gully erosion",
+      "chinese": "沟蚀",
+      "category": "D",
+      "source_type": "synthetic-example",
+      "source_file": "knowledge_graph/examples/public_graph.json"
+    }
+  ],
+  "edges": [
+    {
+      "source": "DEMO-PAPER-001",
+      "target": "DEMO-METHOD-001",
+      "key": "USES_METHOD",
+      "type": "USES_METHOD",
+      "confidence": 1.0,
+      "source_file": "knowledge_graph/examples/public_graph.json"
+    },
+    {
+      "source": "DEMO-PAPER-001",
+      "target": "DEMO-TERM-001",
+      "key": "INTRODUCES",
+      "type": "INTRODUCES",
+      "confidence": 1.0,
+      "source_file": "knowledge_graph/examples/public_graph.json"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+rank,repo,stars,category,relevance_level,final_score,should_deep_read,should_integrate,reason
+1,qgis/QGIS,13883,QGIS官方/核心生态,A,95,Yes,Yes,QGIS核心源码;PyQGIS API参考;Processing框架
+2,joewdavies/geoblender,1829,样式/QML/制图资源,B,70,No,Yes,QGIS+Blender 3D地图;制图高级技巧
+3,opengisch/QField,1261,移动端/QField/Mergin,C,45,No,No,移动端野外采集;非桌面自动化
+4,giswqs/qgis-earthengine-examples,984,PyQGIS自动化,A,90,Yes,Yes,300+ PyQGIS+GEE示例;代码模式核心来源
+5,jjsantos01/qgis_mcp,971,LLM/Agent/QGIS自动控制,A,92,Yes,Yes,LLM控制QGIS的核心参考;MCP协议
+6,qgis2web/qgis2web,698,QGIS插件,B,68,No,Yes,项目导出Web地图;布局导出思路
+7,qgis/QGIS-Documentation,599,QGIS官方/核心生态,A,85,Yes,Yes,官方PyQGIS文档;权威API参考
+8,minorua/Qgis2threejs,586,地图布局与导出,B,62,No,Yes,3D可视化;DEM地形表达
+9,gee-community/qgis-earthengine-plugin,509,QGIS插件,B,60,No,No,GEE集成;需要GEE账号
+10,coolzhao/Geo-SAM,408,QGIS插件,B,65,No,Yes,SAM分割;遥感自动提取参考
+11,opengeos/GeoAgent,366,LLM/Agent/QGIS自动控制,A,78,Yes,Yes,多模态AI Agent;Claude指令设计参考
+12,qgis/qwc2,362,QGIS Server/WebGIS,C,40,No,No,Web客户端;非桌面自动化
+13,opengeos/qgis-gee-data-catalogs-plugin,350,QGIS插件,B,55,No,No,GEE数据目录;需要GEE
+14,3liz/lizmap-web-client,328,QGIS Server/WebGIS,C,42,No,No,WebGIS发布;非自动化
+15,NationalSecurityAgency/qgis-latlontools-plugin,326,QGIS插件,B,58,No,No,坐标工具;非制图核心
+16,anitagraser/QGIS-resources,300,PyQGIS自动化,A,82,Yes,Yes,QGIS资源大全;Processing脚本;代码模式
+17,inasafe/inasafe,279,QGIS插件,C,40,No,No,灾害评估;已停止活跃开发
+18,QuickOSM/QuickOSM,250,QGIS插件,B,58,No,Yes,OSM数据获取;数据源工具
+19,geographyclub/qgis-expressions,245,教程/示例,B,55,No,Yes,QGIS表达式参考;字段计算参考
+20,r-spatial/qgisprocess,221,Processing/空间分析,B,60,No,Yes,R语言QGIS Processing;Processing算法参考
+21,qgis/qgis-js,215,QGIS Server/WebGIS,C,35,No,No,WASM;非桌面
+22,ghtmtt/DataPlotly,207,样式/QML/制图资源,B,65,No,Yes,Plotly图表;统计图嵌入
+23,nextgis/quickmapservices,190,QGIS插件,B,58,No,No,底图服务;非核心
+24,tjukanovt/qgis_styles,189,样式/QML/制图资源,A,78,Yes,Yes,制图样式合集;QML参考;配色方案
+25,r-spatial/RQGIS,186,Processing/空间分析,C,35,No,No,已归档;R语言
+26,PUTvision/qgis-plugin-deepness,186,栅格处理,B,62,No,Yes,DL遥感推理;栅格处理参考
+27,sourcepole/qgis-openlayers-plugin,185,QGIS插件,C,38,No,No,OpenLayers;web相关
+28,GIS4WRF/gis4wrf,185,Processing/空间分析,C,35,No,No,WRF气象;与主方向无关
+29,gis-ops/tutorials,184,教程/示例,B,55,No,Yes,GIS/QGIS教程;操作参考
+30,anitagraser/TimeManager,183,QGIS插件,B,52,No,No,时序动画;特定场景
+31,opengeos/qgis-basemaps,182,QGIS插件,B,55,No,No,底图添加;非核心
+32,roam-qgis/Roam,180,移动端/QField/Mergin,C,35,No,No,移动采集
+33,NationalSecurityAgency/qgis-shapetools-plugin,167,QGIS插件,B,50,No,No,测地线工具;特定场景
+34,charleyglynn/OSM-Shapefile-QGIS-stylesheets,164,样式/QML/制图资源,B,60,No,Yes,OSM样式表;QML参考
+35,geometalab/Vector-Tiles-Reader-QGIS-Plugin,153,QGIS插件,B,50,No,No,矢量瓦片;非核心
+36,SpaceGroupUCL/qgisSpaceSyntaxToolkit,143,矢量处理,C,38,No,No,空间句法;特定领域
+37,webgeodatavore/pyqgis-samples,131,PyQGIS自动化,A,75,Yes,Yes,PyQGIS示例;代码模板直接来源
+38,ucdavisdatalab/Intro-to-Desktop-GIS-with-QGIS,129,教程/示例,B,52,No,Yes,GIS入门教程;操作基础
+39,volaya/qgis-python-course,128,教程/示例,B,55,No,Yes,QGIS Python课程
+40,nkarasiak/qgis-mcp,125,LLM/Agent/QGIS自动控制,A,80,Yes,Yes,QGIS MCP连接Claude;直接相关
+41,afrigeri/geologic-symbols-qgis,120,样式/QML/制图资源,B,52,No,No,地质符号;特定领域
+42,wonder-sk/qgis-minimal-plugin,116,QGIS插件,B,55,No,Yes,最小插件骨架;插件开发参考
+43,opengeos/qgis-samgeo-plugin,116,QGIS插件,B,55,No,No,SAM geo插件;需模型
+44,GIScience/orstools-qgis-plugin,116,QGIS插件,B,50,No,No,路径规划;特定场景
+45,qgis/QGIS-Code-Examples,109,教程/示例,B,58,No,Yes,官方C++/Python示例
+46,qgis/QGIS-Processing,103,Processing/空间分析,A,72,Yes,Yes,官方Processing示例;算法调用模板
+47,opengeos/qgis-notebook-plugin,104,QGIS插件,B,55,No,No,Jupyter集成;非核心
+48,anitagraser/QGIS-Processing-tools,90,Processing/空间分析,A,70,Yes,Yes,Processing脚本合集;代码模板
+49,jonah-sullivan/Qgis-Plugin-Builder,93,QGIS插件,B,58,No,Yes,插件脚手架;开发工具
+50,All4Gis/QGIS-cheat-sheet,86,教程/示例,B,55,No,Yes,PyQGIS速查表
+51,zoran-cuckovic/QGIS-terrain-shading,83,栅格处理,B,62,No,Yes,地形渲染;DEM可视化
+52,stac-utils/qgis-stac-plugin,83,QGIS插件,B,50,No,No,STAC数据;特定场景
+53,opengeos/qgis-maxar-plugin,80,QGIS插件,B,48,No,No,Maxar数据;商业数据
+54,opengeos/qgis-timelapse-plugin,80,QGIS插件,B,52,No,No,时序动画;特定场景
+55,yannos/Beautiful_OSM_in_QGIS,79,样式/QML/制图资源,B,60,No,Yes,OSM美化QGIS;样式参考
+56,deepbands/buildseg,75,QGIS插件,B,50,No,No,建筑提取;需ONNX
+57,cholmes/qgis_plugin_gpq_downloader,73,QGIS插件,B,48,No,No,GeoParquet;数据格式
+58,opengis-ch/qgis-plugin-ci,67,QGIS插件,B,55,No,Yes,插件CI/CD;开发工具链
+59,luolingchun/PyQGIS-Developer-Cookbook-cn,66,教程/示例,B,58,No,Yes,PyQGIS开发者手册中文
+60,movingpandas/qgis-trajectools,66,Processing/空间分析,B,58,No,Yes,轨迹分析;移动数据处理
+61,MahdiFarnaghi/intelli_geo,61,LLM/Agent/QGIS自动控制,B,62,No,Yes,LLM+QGIS集成;与qgis_mcp互补
+62,MerginMaps/qgis-plugin,42,QGIS插件,B,45,No,No,版本管理;非核心

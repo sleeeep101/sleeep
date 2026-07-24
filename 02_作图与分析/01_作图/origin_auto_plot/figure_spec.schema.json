@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FigureSpec",
+  "description": "描述从 CSV 生成 Origin 图表的规格协议",
+  "type": "object",
+  "required": ["input_csv", "figure_type", "x", "output_name"],
+  "properties": {
+    "input_csv": {
+      "type": "string",
+      "description": "输入 CSV 文件路径，相对于 spec 文件所在目录或绝对路径"
+    },
+    "figure_type": {
+      "type": "string",
+      "enum": ["line", "scatter", "bar", "heatmap"],
+      "description": "图表类型"
+    },
+    "x": {
+      "anyOf": [
+        { "type": "string" },
+        { "type": "array", "items": { "type": "string" } }
+      ],
+      "description": "X 轴列名（单个或数组）"
+    },
+    "y": {
+      "anyOf": [
+        { "type": "string" },
+        { "type": "array", "items": { "type": "string" } }
+      ],
+      "description": "Y 轴列名（单个或数组）。line/scatter/bar 必填"
+    },
+    "z": {
+      "type": "string",
+      "description": "Z 轴列名，仅 heatmap 使用"
+    },
+    "title": {
+      "type": "string",
+      "description": "图表标题"
+    },
+    "xlabel": {
+      "type": "string",
+      "description": "X 轴标签"
+    },
+    "ylabel": {
+      "type": "string",
+      "description": "Y 轴标签"
+    },
+    "output_name": {
+      "type": "string",
+      "description": "输出文件基础名称（不含扩展名）"
+    },
+    "export_formats": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["png", "pdf", "tif", "svg", "jpg", "eps"]
+      },
+      "default": ["png"],
+      "description": "导出图片格式列表"
+    },
+    "save_opju": {
+      "type": "boolean",
+      "default": true,
+      "description": "是否保存可编辑的 Origin 工程文件"
+    },
+    "template": {
+      "type": "string",
+      "description": "可选 Origin 模板文件路径"
+    },
+    "output_dir": {
+      "type": "string",
+      "default": "output",
+      "description": "输出目录"
+    }
+  }
+}

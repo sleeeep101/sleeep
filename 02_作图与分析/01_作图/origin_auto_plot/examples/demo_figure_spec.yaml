@@ -1,0 +1,16 @@
+input_csv: demo_line.csv
+figure_type: line
+x: Time
+y:
+  - Signal_A
+  - Signal_B
+  - Noise
+title: "Demo Signals vs Time"
+xlabel: "Time (s)"
+ylabel: "Amplitude"
+output_name: demo_signals
+export_formats:
+  - png
+  - pdf
+save_opju: true
+output_dir: output

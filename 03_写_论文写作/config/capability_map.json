@@ -1,0 +1,31 @@
+{
+  "generated": "2026-06-04T22:42:28.489123",
+  "capability_modules": {
+    "grammar_correction": "中文语病检查（pycorrector/ChineseErrorCorrector/bert_for_corrector等）",
+    "academic_polish": "中文学术润色（gpt_academic/chatgpt-prompts等）",
+    "logic_argument": "逻辑论证检查",
+    "literature_review": "文献综述辅助（PaperForge/ResearchClaw等）",
+    "citation_reference": "参考文献管理（Zotero插件生态）",
+    "markdown_latex_typst": "LaTeX/Typst/Markdown论文模板（thuthesis/ucasthesis等）",
+    "zotero_obsidian": "Zotero/Obsidian学术工作流",
+    "group_meeting_ppt": "组会汇报/PPT生成（Paper2Slides/ppt-speech-writer等）",
+    "ai_agent_workflow": "AI Agent写作工作流",
+    "full_paper_generation": "整篇论文初稿生成（基于真实材料+防编造标记）",
+    "ai_tone_reduction": "降AI腔（不改事实/数据/引用，只改善写作质量）",
+    "ai_detector_diagnosis": "AI检测器结果诊断（区分真问题与误判）",
+    "fraud_audit": "防学术造假审计（文献/数据/图表/方法/结论8项核查）",
+    "writing_prompt": "学术写作Prompt模板",
+    "writing_guide": "论文写作教程/指南",
+    "dataset_model": "数据集/模型",
+    "resource_index": "综合资源索引"
+  },
+  "local_assets": {
+    "prompts": 16,
+    "skills": 5,
+    "scripts": 10,
+    "checklists": 5,
+    "templates": 5,
+    "workflows": 10,
+    "research_inventory": 2
+  }
+}

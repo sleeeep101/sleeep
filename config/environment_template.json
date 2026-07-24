@@ -1,0 +1,50 @@
+{
+  "_comment": "环境配置模板 — 新机器/新用户配置参考",
+  "_version": "1.0",
+  "_updated": "2026-07-24",
+
+  "python": {
+    "path": "<LOCAL_PATH>",
+    "version": ">=3.11",
+    "site_packages": "<LOCAL_PATH>"
+  },
+
+  "paths": {
+    "academic_root": "<LOCAL_PATH>",
+    "data_root": "<LOCAL_PATH>",
+    "output_root": "<LOCAL_PATH>",
+    "kg_data": "<LOCAL_PATH>"
+  },
+
+  "required_packages": [
+    "pymupdf4llm", "pymupdf", "pypdf", "pdfplumber",
+    "easyocr", "markitdown", "reportlab",
+    "python-docx", "networkx", "requests"
+  ],
+
+  "optional_packages": {
+    "tesseract": "系统安装 + pip install pytesseract",
+    "paddleocr": "pip install paddleocr paddlepaddle (中文OCR增强)",
+    "docling": "pip install docling (复杂PDF版面分析)"
+  },
+
+  "external_tools": {
+    "tesseract": "<LOCAL_PATH> (可选)",
+    "poppler": "pdftoppm (PDF渲染，可选)"
+  },
+
+  "mcp_servers": {
+    "scholar-mcp": "文献检索 (待配置API key)",
+    "dem-terrain-mcp": "DEM地形分析 (已注册)"
+  },
+
+  "plugins": {
+    "academic-research-skills": "论文评分+审稿 (已安装)"
+  },
+
+  "setup_commands": [
+    "pip install pymupdf4llm pymupdf pypdf pdfplumber easyocr markitdown reportlab python-docx networkx",
+    "python -m knowledge_graph build  # 首次使用需构建KG",
+    "python -c 'from pdf_ingest.quality_report import assess_quality; print(\"pdf_ingest OK\")'"
+  ]
+}

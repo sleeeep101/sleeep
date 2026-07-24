@@ -1,0 +1,16 @@
+[general]
+name=QGIS MCP Bridge
+qgisMinimumVersion=3.0
+qgisMaximumVersion=3.99
+description=Localhost TCP bridge that lets an MCP server drive QGIS for Claude.
+version=0.1.0
+author=jkoets
+email=josh.koets@gmail.com
+about=Runs a localhost-only TCP server inside QGIS so a paired MCP server can list/add/remove layers, run Processing, screenshot the canvas, query features, and execute PyQGIS snippets on behalf of Claude (Claude Code or Claude Desktop).
+tracker=
+repository=
+category=Plugins
+experimental=True
+hasProcessingProvider=no
+icon=
+tags=mcp,claude,automation,bridge

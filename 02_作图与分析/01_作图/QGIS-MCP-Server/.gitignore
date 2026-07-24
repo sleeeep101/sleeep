@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# uv lockfile cache (keep uv.lock if you want reproducible builds, ignore for now)
+# uv.lock
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local Claude Code MCP config (machine-specific absolute path).
+# Copy .mcp.json.example to .mcp.json and edit the path for your clone.
+.mcp.json

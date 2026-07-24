@@ -1,0 +1,42 @@
+{
+  "_version": "2.0",
+  "_updated": "2026-07-24",
+  "_comment": "统一7维评分 — 合并原7维(导师方向)+ARS 5维。与 references/paper-grading.md 一致",
+
+  "unified_rubric": {
+    "direction_relevance":     {"weight": 0.15, "name": "方向相关度",    "source": "原7维"},
+    "method_rigor":            {"weight": 0.25, "name": "方法严谨性",    "source": "原方法新颖度+ARS methodology_rigor"},
+    "innovation":              {"weight": 0.15, "name": "创新性",       "source": "原创新性+ARS originality"},
+    "evidence_sufficiency":    {"weight": 0.15, "name": "证据充分性",    "source": "原数据质量+ARS evidence_sufficiency"},
+    "argument_coherence":      {"weight": 0.10, "name": "论证连贯性",    "source": "ARS argument_coherence"},
+    "writing_quality":         {"weight": 0.10, "name": "写作质量",     "source": "两方合并"},
+    "transferability":         {"weight": 0.10, "name": "迁移价值",     "source": "原7维保留"}
+  },
+
+  "decision_thresholds": {
+    "accept": 85,
+    "minor_revision": 70,
+    "major_revision": 60,
+    "reject_comment": "<60不入库"
+  },
+
+  "scoring_pipeline": {
+    "PDF_TEXT_FULL": "关键词即时(60%) + ARS精读(40%) = 混合分，高置信",
+    "PDF_TEXT_PARTIAL": "关键词即时(100%)，中置信",
+    "ABSTRACT_ONLY": "关键词即时(100%)，低置信，仅排序"
+  },
+
+  "year_weights": {
+    "2025-2026": 1.0,
+    "2023-2024": 0.95,
+    "2020-2022": 0.90,
+    "2015-2019": 0.80
+  },
+
+  "direction_keywords": [
+    "DEM", "数字地形分析", "土壤侵蚀", "水土保持",
+    "沟蚀", "切沟", "冲沟", "GIS空间分析", "遥感",
+    "地貌", "水文模型", "机器学习", "深度学习",
+    "InSAR", "UAV", "SfM"
+  ]
+}

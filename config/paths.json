@@ -1,0 +1,59 @@
+{
+  "_comment": "academic-workflow 统一路径配置 — 所有脚本读取同一个文件，目录重构时只需改这里",
+  "_version": "1.2",
+  "_updated": "2026-07-24",
+  "_rules": {
+    "deep_read_requirement": "只有成功下载并解析 PDF 全文（PDF_TEXT_FULL）的论文才能进入全文精读和长期知识库。仅有摘要/元数据的论文只进入候选表。",
+    "paper_source_filter": "优先分析有本地 PDF 存档的论文，禁止将摘要级论文写成全文精读。"
+  },
+
+  "base_dir": "<LOCAL_PATH>",
+
+  "academic_workflow": {
+    "root": "<LOCAL_PATH>",
+    "daily_reports": "01_读_论文阅读与复盘/01_每日论文",
+    "fulltext_papers": "01_读_论文阅读与复盘/02_论文阅读库/fulltext_papers",
+    "paper_sources": "01_读_论文阅读与复盘/02_论文阅读库/paper_sources",
+    "knowledge_base": "01_读_论文阅读与复盘/04_长期知识库/长期知识库.md",
+    "pending_read": "01_读_论文阅读与复盘/04_长期知识库/待补读队列.md",
+    "innovation_points": "01_读_论文阅读与复盘/04_长期知识库/可能的创新点.md",
+    "tracker_db": "logs/paper_tracker.db",
+    "logs_dir": "logs",
+    "scripts_dir": "scripts",
+    "config_dir": "config",
+      "knowledge_graph": {
+        "root": "knowledge_graph",
+        "data_file": "knowledge_graph/kg_data.json",
+        "cli": "python -m knowledge_graph"
+      }
+  },
+
+  "today_entrypoints": {
+    "public_release_builder": "scripts/build_public_release.py",
+    "public_release_guide": "scripts/README.md",
+    "reading_archive_enricher": "01_读_论文阅读与复盘/00_core_scripts/enrich_archived_pdfs.py",
+    "pdf_ingest": "pdf_ingest/ingest_pdf.py",
+    "pdf_public_fixture_test": "pdf_ingest/tests/test_end_to_end_public_fixture.py",
+    "knowledge_graph_cli": "knowledge_graph/cli.py",
+    "knowledge_graph_public_example": "knowledge_graph/examples/public_graph.json",
+    "topic_gap_detector": "05_选题与问题库/gap_detector.py",
+    "writing_material_gate": "03_写_论文写作/00_core_scripts/check_material_completeness.py",
+    "figure_release_gate": "02_作图与分析/01_作图/figure_release_gate.py",
+    "meeting_evidence_gate": "04_组会PPT/00_core_scripts/meeting_evidence_gate.py",
+    "project_quality_gate": "07_方法与代码库/project_quality_gate.py"
+  },
+
+  "personal_brain": {
+    "root": "<LOCAL_PATH>",
+    "daily_reports": "reports/daily",
+    "weekly_reports": "reports/weekly",
+    "version_record": "maintenance/04_版本记录.md",
+    "task_change_log": "maintenance/task_change_log.md",
+    "backup_library": "backup_library"
+  },
+
+  "etf": {
+    "root": "<LOCAL_PATH>",
+    "push_config": "runtime/push_config.json"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "qgis": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "<absolute-path-to-qgis_mcp-repo>/mcp_server",
+        "run",
+        "qgis-mcp"
+      ]
+    }
+  }
+}
