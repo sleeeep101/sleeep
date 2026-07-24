@@ -1,12 +1,43 @@
-# 公开知识图谱示例
+# Knowledge Graph — Public Example
 
-`public_graph.json` 仅含 3 个合成节点和 2 条合成关系，用于验证安装、查询与可视化命令；它不是论文数据、研究结论、参考文献，也不应进入正式分析或写作。
+`public_graph.json` contains **1,127 paper nodes** and **83,815 semantic relations** extracted from a geography/GIS/remote-sensing reading corpus. All local file paths, note paths, and block content have been redacted (`<LOCAL_PATH>`). The graph preserves:
 
-从工作流根目录运行：
+- Paper-level metadata: title, authors, year, DOI, topics, summary
+- Method-level extraction: methods used, transferability notes, credibility assessment
+- Entity types: Paper, Method, Dataset, StudyArea, Term, Concept
+- Relations: semantic similarity, method-paper links, cross-entity links, innovation links
+
+## Usage
+
+From the workflow root:
 
 ```powershell
-python -m knowledge_graph stats --graph-file knowledge_graph/examples/public_graph.json
+# Query the bundled graph by keyword or topic
 python -m knowledge_graph query "gully erosion" --graph-file knowledge_graph/examples/public_graph.json
+python -m knowledge_graph query "RUSLE soil erosion" --graph-file knowledge_graph/examples/public_graph.json
+
+# Coverage statistics
+python -m knowledge_graph stats --graph-file knowledge_graph/examples/public_graph.json
+
+# Visualize a subgraph (opens in browser)
+python -m knowledge_graph viz "ephemeral gully" --graph-file knowledge_graph/examples/public_graph.json
 ```
 
-正式使用时，先从已获授权且去标识化的资料构建图谱。默认构建不会读取 Personal-Brain、桌面笔记或联系人文件；只有显式传入 `--include-private-sources` 才会尝试读取这些本地来源。
+## Privacy
+
+- All `fulltext_path`, `note_path`, and `block_content` fields have been removed.
+- Any residual local paths have been replaced with `<LOCAL_PATH>`.
+- The default build pipeline (`python -m knowledge_graph build`) never reads Personal-Brain, desktop notes, or contact files unless `--include-private-sources` is explicitly passed.
+- See [`knowledge_graph/隐私来源策略.md`](../隐私来源策略.md) for the privacy source policy.
+
+## Building Your Own
+
+```powershell
+# Build from academic-workflow paper corpus
+python -m knowledge_graph build
+
+# Build including private sources (explicit opt-in)
+python -m knowledge_graph build --include-private-sources
+```
+
+The bundled graph is a **read-only reference dataset**. To maintain your own research knowledge graph, build from your local paper corpus and keep the resulting `kg_data.json` outside version control.
