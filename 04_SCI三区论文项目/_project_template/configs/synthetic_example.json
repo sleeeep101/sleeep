@@ -1,8 +1,0 @@
-{
-  "slope_reference_degrees": 45.0,
-  "weights": {
-    "slope": 0.5,
-    "soil_erodibility": 0.3,
-    "vegetation_loss": 0.2
-  }
-}

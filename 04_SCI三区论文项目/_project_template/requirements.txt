@@ -1,1 +1,0 @@
-# The bundled synthetic example uses only the Python standard library.
