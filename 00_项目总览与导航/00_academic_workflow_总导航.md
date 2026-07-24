@@ -101,7 +101,7 @@ academic-workflow/
 | paper_source_utils.py | `scripts/paper_source_utils.py` | 论文源文件工具 |
 | run_paper_curator.bat | `scripts/run_paper_curator.bat` | 定时任务入口 |
 | paper_tracker.db | `logs/paper_tracker.db` | 论文追踪数据库 |
-| **knowledge_graph** | `knowledge_graph/` | **公开图谱 1,127节点/83,815边** (`examples/public_graph.json`) |
+| knowledge_graph | `knowledge_graph/` | 知识图谱构建与查询（示例见 `examples/`） |
 
 > `scripts/` 目录 7月13日已清理：删除9个冗余脚本（备份/临时/零引用），保留8个活跃文件。
 

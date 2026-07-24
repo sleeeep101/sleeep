@@ -17,16 +17,6 @@
 - PPT 材料 → 04_组会PPT
 - 项目数据 → 06_数据资源库
 
-## 知识图谱
-
-论文阅读产出自动汇入知识图谱。本仓库附带 **1,127 节点 / 83,815 条关系** 的清洗后公开图谱：
-
-```bash
-python -m knowledge_graph query "RUSLE" --graph-file knowledge_graph/examples/public_graph.json
-```
-
-详见 [`knowledge_graph/examples/README.md`](../knowledge_graph/examples/README.md) 和根目录 [README](../README.md#knowledge-graph)。
-
 ## 核心脚本
 
 `00_core_scripts/` 中的归档、补齐、检查和复盘脚本可随本工作流下载使用；其中 `enrich_archived_pdfs.py` 默认以自身所在的工作流根目录运行，不依赖某台电脑的盘符。每日定时筛选器仍由外部调度配置管理，下载者应按自己的系统配置任务，而不是复制他人的任务路径或账号配置。
